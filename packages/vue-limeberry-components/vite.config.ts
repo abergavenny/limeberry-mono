@@ -3,6 +3,7 @@ import { fileURLToPath } from 'url'
 
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import typescript from '@rollup/plugin-typescript'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -20,13 +21,15 @@ export default defineConfig({
       formats: ["es", "cjs"]
     },
     rollupOptions: {
+      input: resolve(__dirname, "src/index.ts"),
       external: ["vue"],
       output: {
         exports: 'named',
         globals: {
           vue: "Vue"
         }
-      }
+      },
+      plugins: [typescript({ compilerOptions: { target: "ESNext"}})]
     }
   }
 })

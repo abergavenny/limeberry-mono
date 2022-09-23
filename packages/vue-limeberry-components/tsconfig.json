@@ -1,10 +1,15 @@
 {
   "compilerOptions": {
+    // New
+    "outDir": "dist",
+    "declaration": true,
+    "noEmit": false,
+    // Default
     "target": "ESNext",
     "useDefineForClassFields": true,
     // "module": "ESNext",
     "moduleResolution": "Node",
-    // "strict": true, // TODO
+    // "strict": true, // TODO problem with @stencil/vue-output-target
     "jsx": "preserve",
     "sourceMap": true,
     "resolveJsonModule": true,
