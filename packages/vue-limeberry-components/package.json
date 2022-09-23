@@ -21,14 +21,14 @@
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
-  "dependencies": {
-    "@abergavenny/limeberry-components": "*",
-    "vue": "^3.2.37"
-  },
+  "dependencies": {},
+  "peerDependencies": {},
   "devDependencies": {
+    "@abergavenny/limeberry-components": "*",
     "@vitejs/plugin-vue": "^3.1.0",
     "typescript": "^4.6.4",
     "vite": "^3.1.0",
+    "vue": "^3.2.37",
     "vue-tsc": "^0.40.4"
   },
   "publishConfig": {
