@@ -1,6 +1,6 @@
 {
   "name": "@abergavenny/vue-limeberry-components",
-  "version": "0.0.2",
+  "version": "0.0.3-alpha.0",
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
@@ -21,10 +21,8 @@
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
-  "dependencies": {},
-  "peerDependencies": {},
   "devDependencies": {
-    "@abergavenny/limeberry-components": "*",
+    "@abergavenny/limeberry-components": "^0.0.3-alpha.0",
     "@vitejs/plugin-vue": "^3.1.0",
     "typescript": "^4.6.4",
     "vite": "^3.1.0",

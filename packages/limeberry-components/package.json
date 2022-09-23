@@ -1,6 +1,6 @@
 {
   "name": "@abergavenny/limeberry-components",
-  "version": "0.0.2",
+  "version": "0.0.3-alpha.0",
   "description": "Stencil Component Starter",
   "license": "MIT",
   "main": "dist/index.cjs.js",
