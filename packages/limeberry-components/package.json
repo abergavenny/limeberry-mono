@@ -22,17 +22,18 @@
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll",
     "generate": "stencil generate",
-    "clean:build": "rimraf dist loader www"
+    "clean:build": "rimraf dist loader www",
+    "jest": "jest"
   },
   "dependencies": {
-    "@stencil/core": "^2.18.0"
+    "@stencil/core": "^2.13.0"
   },
   "devDependencies": {
     "@stencil/sass": "^2.0.0",
     "@stencil/vue-output-target": "^0.6.2",
-    "@types/jest": "^29.0.3",
-    "jest": "^29.0.3",
-    "jest-cli": "^29.0.3",
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.5",
+    "jest-cli": "^27.4.5",
     "puppeteer": "^18.0.5",
     "rimraf": "^3.0.2"
   },

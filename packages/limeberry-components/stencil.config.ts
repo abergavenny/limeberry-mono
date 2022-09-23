@@ -24,5 +24,6 @@ export const config: Config = {
       serviceWorker: null,
     },
   ],
-  plugins: [sass()]
+  plugins: [sass()],
+  testing: {}
 };
