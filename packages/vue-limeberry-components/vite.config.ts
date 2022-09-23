@@ -21,7 +21,6 @@ export default defineConfig({
       formats: ["es", "cjs"]
     },
     rollupOptions: {
-      input: resolve(__dirname, "src/index.ts"),
       external: ["vue"],
       output: {
         exports: 'named',
@@ -29,7 +28,7 @@ export default defineConfig({
           vue: "Vue"
         }
       },
-      plugins: [typescript({ compilerOptions: { target: "ESNext"}})]
+      // plugins: [typescript({ compilerOptions: { target: "ESNext" } })]
     }
   }
 })

@@ -7,7 +7,7 @@
     // Default
     "target": "ESNext",
     "useDefineForClassFields": true,
-    // "module": "ESNext",
+    "module": "ESNext",
     "moduleResolution": "Node",
     // "strict": true, // TODO problem with @stencil/vue-output-target
     "jsx": "preserve",
