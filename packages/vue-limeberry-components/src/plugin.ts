@@ -1,5 +1,5 @@
 import { Plugin } from 'vue';
-import { applyPolyfills, defineCustomElements } from 'limeberry-components/loader';
+import { applyPolyfills, defineCustomElements } from '@abergavenny/limeberry-components/loader';
 
 export const ComponentLibrary: Plugin = {
     async install() {
