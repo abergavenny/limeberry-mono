@@ -1,5 +1,5 @@
 import { App } from "vue"
-import * as components from "./components"
+import * as components from "./components/index"
 
 import './assets/main.css'
 
