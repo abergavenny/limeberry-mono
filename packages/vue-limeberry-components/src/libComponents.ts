@@ -8,8 +8,8 @@ import type { JSX } from '@abergavenny/limeberry-components';
 
 
 
-export const MyComponent = /*@__PURE__*/ defineContainer<JSX.MyComponent>('my-component', undefined);
+export const LbsContainer = /*@__PURE__*/ defineContainer<JSX.LbsContainer>('lbs-container', undefined);
 
 
-export const TestComponent = /*@__PURE__*/ defineContainer<JSX.TestComponent>('test-component', undefined);
+export const LbsCustom = /*@__PURE__*/ defineContainer<JSX.LbsCustom>('lbs-custom', undefined);
 

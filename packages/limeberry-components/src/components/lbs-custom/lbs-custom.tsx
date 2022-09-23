@@ -1,11 +1,11 @@
 import { Component, Host, h } from '@stencil/core';
 
 @Component({
-  tag: 'test-component',
-  styleUrl: 'test-component.css',
+  tag: 'lbs-custom',
+  styleUrl: 'lbs-custom.css',
   shadow: true,
 })
-export class TestComponent {
+export class LbsCustom {
 
   render() {
     return (

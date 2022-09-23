@@ -1,18 +1,18 @@
 import { newSpecPage } from '@stencil/core/testing';
-import { MyComponent } from '../my-component';
+import { LbsCustom } from '../lbs-custom';
 
-describe('my-component', () => {
+describe('lbs-custom', () => {
   it('renders', async () => {
     const page = await newSpecPage({
-      components: [MyComponent],
-      html: `<my-component></my-component>`,
+      components: [LbsCustom],
+      html: `<lbs-custom></lbs-custom>`,
     });
     expect(page.root).toEqualHtml(`
-      <my-component>
+      <lbs-custom>
         <mock:shadow-root>
           <slot></slot>
         </mock:shadow-root>
-      </my-component>
+      </lbs-custom>
     `);
   });
 });

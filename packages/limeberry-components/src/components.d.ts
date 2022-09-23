@@ -6,45 +6,45 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
-    interface MyComponent {
+    interface LbsContainer {
     }
-    interface TestComponent {
+    interface LbsCustom {
     }
 }
 declare global {
-    interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
+    interface HTMLLbsContainerElement extends Components.LbsContainer, HTMLStencilElement {
     }
-    var HTMLMyComponentElement: {
-        prototype: HTMLMyComponentElement;
-        new (): HTMLMyComponentElement;
+    var HTMLLbsContainerElement: {
+        prototype: HTMLLbsContainerElement;
+        new (): HTMLLbsContainerElement;
     };
-    interface HTMLTestComponentElement extends Components.TestComponent, HTMLStencilElement {
+    interface HTMLLbsCustomElement extends Components.LbsCustom, HTMLStencilElement {
     }
-    var HTMLTestComponentElement: {
-        prototype: HTMLTestComponentElement;
-        new (): HTMLTestComponentElement;
+    var HTMLLbsCustomElement: {
+        prototype: HTMLLbsCustomElement;
+        new (): HTMLLbsCustomElement;
     };
     interface HTMLElementTagNameMap {
-        "my-component": HTMLMyComponentElement;
-        "test-component": HTMLTestComponentElement;
+        "lbs-container": HTMLLbsContainerElement;
+        "lbs-custom": HTMLLbsCustomElement;
     }
 }
 declare namespace LocalJSX {
-    interface MyComponent {
+    interface LbsContainer {
     }
-    interface TestComponent {
+    interface LbsCustom {
     }
     interface IntrinsicElements {
-        "my-component": MyComponent;
-        "test-component": TestComponent;
+        "lbs-container": LbsContainer;
+        "lbs-custom": LbsCustom;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
-            "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
-            "test-component": LocalJSX.TestComponent & JSXBase.HTMLAttributes<HTMLTestComponentElement>;
+            "lbs-container": LocalJSX.LbsContainer & JSXBase.HTMLAttributes<HTMLLbsContainerElement>;
+            "lbs-custom": LocalJSX.LbsCustom & JSXBase.HTMLAttributes<HTMLLbsCustomElement>;
         }
     }
 }

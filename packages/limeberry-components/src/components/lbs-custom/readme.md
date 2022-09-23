@@ -1,4 +1,4 @@
-# test-component
+# lbs-custom
 
 
 

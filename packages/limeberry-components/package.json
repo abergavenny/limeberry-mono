@@ -1,5 +1,6 @@
 {
   "name": "@abergavenny/limeberry-components",
+  "private": true,
   "version": "0.0.3-alpha.10",
   "description": "Stencil Component Starter",
   "license": "MIT",
