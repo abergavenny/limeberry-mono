@@ -1,6 +1,6 @@
 {
   "name": "@abergavenny/vue-limeberry-components",
-  "version": "0.0.3-alpha.6",
+  "version": "0.0.3-alpha.7",
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
