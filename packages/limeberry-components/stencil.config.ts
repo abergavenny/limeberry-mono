@@ -7,7 +7,7 @@ export const config: Config = {
   outputTargets: [
     vueOutputTarget({
       componentCorePackage: '@abergavenny/limeberry-components',
-      proxiesFile: '../vue-limeberry-components/src/components.ts',
+      proxiesFile: '../vue-limeberry-components/src/libComponents.ts',
     }),
     {
       type: 'dist',
