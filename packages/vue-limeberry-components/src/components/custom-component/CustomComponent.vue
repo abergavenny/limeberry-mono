@@ -1,3 +1,5 @@
+<script setup lang="ts"></script>
+
 <template>
-    <div>Custom Component</div>
+    <div>IMPL Custom Component</div>
 </template>
